@@ -4,20 +4,6 @@ This project implements a comprehensive Wallet Risk Scoring solution that analyz
 
 ---
 
-## Table of Contents
-
-- [Project Overview](#project-overview)  
-- [Data Collection Method](#data-collection-method)  
-- [Feature Selection Rationale](#feature-selection-rationale)  
-- [Scoring Method](#scoring-method)  
-- [Justification of Risk Indicators](#justification-of-risk-indicators)  
-- [Usage Instructions](#usage-instructions)  
-- [Repository Structure](#repository-structure)  
-- [Dependencies](#dependencies)  
-- [Limitations and Future Improvements](#limitations-and-future-improvements)  
-
----
-
 ## Project Overview
 
 This system fetches transaction histories for a set of Ethereum wallets interacting with Compound V2 and V3 subgraphs using The Graph Protocol. It extracts meaningful on-chain events such as borrows, repayments, and liquidations, and processes these into key features. These features are normalized and aggregated through a weighted scoring model to output a wallet risk score indicating the likelihood of risky borrowing behavior.
@@ -98,32 +84,15 @@ python src/wallet_risk_scoring.py
 
 ---
 
-## Repository Structure
----
-
-Wallet-Scoring/
-│
-├── README.md
-├── requirements.txt
-├── data/
-│ ├── Wallet-id-Sheet1.csv # Input wallet addresses
-│ └── wallet_risk_scores.csv # Output risk scores
-├── src/
-│ └── wallet_risk_scoring.py # Main risk scoring script
-└── docs/
-└── methodology.md # Detailed explanation (optional)
-
----
-
 ## Dependencies
+
+---
 
 - `Python 3.0`
 - `pandas`  
 - `requests`
 
-Install dependencies via:
-
-pip install -r requirements.txt
+Install dependencies via:   pip install -r requirements.txt
 
 ---
 

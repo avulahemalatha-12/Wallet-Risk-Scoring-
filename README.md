@@ -60,8 +60,8 @@ The features engineered to characterize wallet risk are:
 | Largest Single Borrow    | 10%     |
 | Activity Duration        | 10%     |
 
-- **Formula:**
-
+**Formula:**
+---
   $$
   \text{Risk Score} = 1000 \times \sum_i (w_i \cdot f_i)
   $$

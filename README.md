@@ -99,6 +99,8 @@ python src/wallet_risk_scoring.py
 ---
 
 ## Repository Structure
+---
+
 Wallet-Scoring/
 │
 ├── README.md
@@ -115,7 +117,7 @@ Wallet-Scoring/
 
 ## Dependencies
 
-- Python 3.x  
+- `Python 3.0`
 - `pandas`  
 - `requests`
 
@@ -134,12 +136,3 @@ pip install -r requirements.txt
 
 ---
 
-*For questions or contributions, feel free to open issues or pull requests.*
-
----
-
-**License:** MIT (or specify your license)
-
----
-
-*Thank you for exploring Wallet Risk Scoring!*
